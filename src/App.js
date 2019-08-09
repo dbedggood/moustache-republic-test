@@ -1,7 +1,16 @@
-import React from 'react'
+import React, { Component } from 'react'
+import NavBar from './components/layout/NavBar'
+import ProductPage from './components/content/ProductPage'
 
-function App() {
-  return <div className="App" />
+class App extends Component {
+  render() {
+    return (
+      <div>
+        <NavBar />
+        <ProductPage />
+      </div>
+    )
+  }
 }
 
 export default App
