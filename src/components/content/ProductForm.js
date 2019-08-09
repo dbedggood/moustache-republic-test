@@ -5,18 +5,18 @@ function ProductForm() {
     <div>
       <p className="lightText">
         <b>
-          SIZE<span className="required">*</span>
+          SIZE<span className="required">*</span>{' '}
           <span className="Size">S</span>
         </b>
       </p>
       <div className="lightText">
-        <button>S</button>
-        <button>M</button>
-        <button>L</button>
+        <button className="sizeButton">S</button>
+        <button className="sizeButton">M</button>
+        <button className="sizeButton">L</button>
       </div>
       <br />
       <div>
-        <button>ADD TO CART</button>
+        <button className="addToCartButton">ADD TO CART</button>
       </div>
     </div>
   )

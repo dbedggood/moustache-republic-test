@@ -16,6 +16,7 @@ function ProductDetails() {
           magnam, commodi esse eaque. Tempore laboriosam, rerum voluptate
           expedita aspernatur veniam quod explicabo?
         </p>
+        <br />
         <ProductForm />
       </div>
     </div>

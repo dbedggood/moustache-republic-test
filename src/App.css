@@ -39,5 +39,50 @@ body {
 }
 
 .required {
-  color: red;
+  color: #c90000;
+}
+
+.sizeButton {
+  background-color: #fff;
+  border-style: solid;
+  border-width: 1px;
+  color: #888888;
+  padding: 10px 15px;
+  margin-right: 5px;
+  text-align: center;
+  display: inline-block;
+  text-decoration: none;
+  font-size: 10px;
+}
+
+.sizeButton:focus {
+  outline-style: solid;
+  outline-color: #222222;
+  outline-width: 2px;
+  color: #222222;
+}
+
+.addToCartButton {
+  background-color: #fff;
+  border-style: solid;
+  border-width: 2px;
+  border-color: #222222;
+  color: #222222;
+  padding: 5px 25px;
+  text-align: center;
+  display: inline-block;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: bold;
+  -webkit-transition-duration: 0.2s;
+  transition-duration: 0.2s;
+}
+
+.addToCartButton:focus {
+  outline-width: 0;
+}
+
+.addToCartButton:hover {
+  background-color: #222222;
+  color: white;
 }
