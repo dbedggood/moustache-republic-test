@@ -1,7 +1,13 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  color: #222222;
+}
+
 .NavBar {
   background-color: #f6f6f7;
   margin: 15px auto;
   height: 30px;
+  line-height: 30px;
 }
 
 .Content {
@@ -10,4 +16,28 @@
 
 .ProductImage {
   height: 600px;
+}
+
+.lightText {
+  color: #888888;
+  font-size: 0.8em;
+}
+
+.price {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-top-style: solid;
+  border-bottom-style: solid;
+  border-width: 1px;
+  border-color: #cccccc;
+}
+
+.Size {
+  color: #222222;
+}
+
+.required {
+  color: red;
 }

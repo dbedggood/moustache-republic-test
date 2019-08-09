@@ -3,10 +3,13 @@ import React from 'react'
 function ProductForm() {
   return (
     <div>
-      <p>
-        SIZE <b>S</b>
+      <p className="lightText">
+        <b>
+          SIZE<span className="required">*</span>
+          <span className="Size">S</span>
+        </b>
       </p>
-      <div>
+      <div className="lightText">
         <button>S</button>
         <button>M</button>
         <button>L</button>
