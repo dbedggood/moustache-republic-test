@@ -3,9 +3,20 @@ import ProductForm from './ProductForm'
 
 function ProductDetails() {
   return (
-    <div>
-      <p>information</p>
-      <ProductForm />
+    <div className="row">
+      <div className="col-11 offset-1">
+        <h4>Classic Tee</h4>
+        <hr />
+        <b>$75.00</b>
+        <hr />
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates
+          adipisci laboriosam, iusto natus dolores corporis quas dignissimos
+          magnam, commodi esse eaque. Tempore laboriosam, rerum voluptate
+          expedita aspernatur veniam quod explicabo?
+        </p>
+        <ProductForm />
+      </div>
     </div>
   )
 }

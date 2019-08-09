@@ -3,9 +3,12 @@ import ShoppingCart from './ShoppingCart'
 
 function NavBar() {
   return (
-    <div>
-      <p>navbar</p>
-      <ShoppingCart />
+    <div className="row">
+      <div className="col-10 offset-1">
+        <div className="NavBar">
+          <ShoppingCart />
+        </div>
+      </div>
     </div>
   )
 }

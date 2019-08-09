@@ -1,0 +1,13 @@
+.NavBar {
+  background-color: grey;
+  margin: 15px auto;
+  height: 30px;
+}
+
+.Content {
+  background-color: yellow;
+}
+
+.ProductImage {
+  height: 600px;
+}
