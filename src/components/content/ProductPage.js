@@ -4,10 +4,14 @@ import ProductDetails from './ProductDetails'
 function ProductPage() {
   return (
     <div className="row Content">
-      <div className="col-3 offset-3 bg-dark">
-        <img className="ProductImage" src="./classic-tee.jpg" alt="tshirt" />
+      <div className="col-sm-12 col-md-5 offset-md-1 col-lg-3 offset-lg-3">
+        <img
+          className="img-responsive ProductImage"
+          src="./classic-tee.jpg"
+          alt="tshirt"
+        />
       </div>
-      <div className="col-4">
+      <div className="col-sm-12 col-md-5 col-lg-4 offset-lg-1 col-xl-4 offset-xl-0">
         <ProductDetails />
       </div>
     </div>

@@ -4,7 +4,7 @@ import ProductForm from './ProductForm'
 function ProductDetails() {
   return (
     <div className="row">
-      <div className="col-11 offset-1">
+      <div className="col-sm-12 col-md-10 offset-md-2">
         <h4>Classic Tee</h4>
         <hr />
         <b>$75.00</b>
